@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    margin: 0;
 }
 
 a{
@@ -42,7 +43,7 @@ nav a:hover{
     color: #FEEA12;
 }
 
-@media (max-width:700px){
+@media (max-width:768px){
     header{
         flex-direction: column;
     }
@@ -53,35 +54,38 @@ nav a:hover{
 }
 
 .container{
-    background-color: #8B4047;
-    size: 735px;
     display: flex;
-    
-
+    background: linear-gradient(to right, #F16F7B, #8B4047);
+    margin: 0px;   
 }
 
+
 h1{
+    display: flex;
+    background-color: black;
+    transform: translate(-10%);
+    box-shadow: 0 0 20px rgb(0,0,0,20);
     font-family: 'arial';
     color: #FEEA12;
-    background-color: black;
-    text-align: start;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     height: auto;
     margin: auto;
-    padding: 60px;
-   
-
+    padding: 100px;
+    
+  
 }
 
 
 .text{
+    display: flex;
     color:black;
-    background-color: aquamarine;
+    justify-content: center;
+    background: linear-gradient(to right, #FEEA12, #72EF6E, #00F3B9);
     align-content: center;
     font-size: 18px;
     text-align: center;
     font-family: Arial, sans-serif;
-    
-
 
 }
+
