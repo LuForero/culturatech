@@ -89,3 +89,39 @@ h1{
 
 }
 
+
+.container-card{
+    display: grid; 
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    place-items: center;
+    border: #3db84d;
+    box-shadow: 0px 5px 0px #feea12;
+    border-radius: 5px;
+    background-color: rgba(127, 255, 212, 0.253);
+    width: 50vh;
+    height: 40vh; 
+    margin: 8%;
+    
+}
+
+
+
+p{
+  font-size: 15px;
+  width: 70%;
+  font-family: Arial, sans-serif;
+}
+ /* imagen de nosotras*/
+ 
+.image-box{
+    width: 350px;
+    height: 400px;
+    display: flex;
+    justify-content: row;
+    align-items: flex-start;
+    position: absolute;
+    left: 60%;
+    top: 75%; 
+
+}
